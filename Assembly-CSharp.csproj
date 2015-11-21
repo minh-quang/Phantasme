@@ -112,7 +112,12 @@
      <Compile Include="Assets\Scripts\AIMouvement.cs" />
      <Compile Include="Assets\Scripts\AttackZone.cs" />
      <Compile Include="Assets\Scripts\CameraMouvement.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\EndOfStage.cs" />
+=======
+     <Compile Include="Assets\Scripts\CharacterHandler.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+>>>>>>> refs/remotes/origin/Player
      <Compile Include="Assets\Scripts\MapManager.cs" />
      <Compile Include="Assets\Scripts\MonsterCaracteristics.cs" />
      <Compile Include="Assets\Scripts\MonsterManager.cs" />
