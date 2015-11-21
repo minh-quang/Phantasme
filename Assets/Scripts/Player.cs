@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class Player : MonoBehaviour {
 
     public float MaxHealth;
@@ -8,6 +7,9 @@ public class Player : MonoBehaviour {
     public float MaxSpeed;
     public Vector2 position;
     private bool isHitting;
+
+    int dimension;
+    float taille;
 
     Animator[] anim;
     Animator anim1;
@@ -24,10 +26,16 @@ public class Player : MonoBehaviour {
         position = this.transform.position;
         ori = 0;
 
+        dimension = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().dimension;
+        taille = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().taille;
+
         anim = GetComponentsInChildren<Animator>();
+        Debug.Log(anim.ToString());
         anim1 = anim[0];
+        Debug.Log(anim1.ToString());
         anim2 = anim[1];
-    } 
+        Debug.Log(anim2.ToString());
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -66,6 +74,11 @@ public class Player : MonoBehaviour {
         
         //Tape
         Hitting();
+        if (isHitting)
+        {
+            Debug.Log("je tape");
+        }
+        
     }
 
     //Fonction dammage
@@ -85,15 +98,14 @@ public class Player : MonoBehaviour {
     {
         float Speed = MaxSpeed * Time.deltaTime;
         this.transform.Translate(new Vector2(Speed * h, Speed * v));
-        
     }
 
     //Faire la fonction qui reconnait les coups
-    void OnTriggerEnter2D (Collider2D collided)
+    void OnTriggerEnter2D(Collider2D collided)
     {
-        if (collided.name == "je sais pas encore")
+        if (collided.tag == "Monster")
         {
-            //TakeDamage(Damage lié à l'arme);
+            TakeDamage(collided.GetComponent<MonsterCaracteristics>().attack);
         }
     }
 
@@ -167,4 +179,13 @@ public class Player : MonoBehaviour {
         }
         //if l'animation n'est pas acitivé alors isHittingUp = false
     }
+
+    //void OnCollisionEnter2D(Collision2D coll)
+    //{
+    //    Vector3 pos = transform.position;
+    //    if (coll.gameObject.tag == "obstacles")
+    //    {
+    //        transform.position = pos;
+    //    }
+    //}
 }
