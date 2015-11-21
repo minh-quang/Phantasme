@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 259743d0762fb154fa97367fe150d74b
-timeCreated: 1448127434
+guid: 465c5990d72e2c340a2647fddeeb6610
+timeCreated: 1448132810
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: joueur_marche_0
-    21300002: joueur_marche_1
-    21300004: joueur_marche_2
-    21300006: joueur_marche_3
-    21300008: joueur_marche_4
-    21300010: joueur_marche_5
-    21300012: joueur_marche_6
-    21300014: joueur_marche_7
+    21300000: joueur_marche_arme_droite_0
+    21300002: joueur_marche_arme_droite_1
+    21300004: joueur_marche_arme_droite_2
+    21300006: joueur_marche_arme_droite_3
+    21300008: joueur_marche_arme_droite_4
+    21300010: joueur_marche_arme_droite_5
+    21300012: joueur_marche_arme_droite_6
+    21300014: joueur_marche_arme_droite_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,85 +58,85 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: joueur_marche_0
+    - name: joueur_marche_arme_droite_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 6
-        width: 22
-        height: 17
-      alignment: 9
-      pivot: {x: .50000006, y: .606845617}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 5
-        width: 22
+        x: 2
+        y: 3
+        width: 25
         height: 19
       alignment: 9
-      pivot: {x: .483487576, y: .557359219}
+      pivot: {x: .558123946, y: .672077835}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_2
+    - name: joueur_marche_arme_droite_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 6
-        width: 22
-        height: 17
+        x: 34
+        y: 3
+        width: 24
+        height: 20
       alignment: 9
-      pivot: {x: .450462341, y: .585476518}
+      pivot: {x: .51513654, y: .645310044}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_3
+    - name: joueur_marche_arme_droite_2
       rect:
         serializedVersion: 2
-        x: 101
-        y: 7
-        width: 22
-        height: 15
+        x: 64
+        y: 4
+        width: 26
+        height: 20
       alignment: 9
-      pivot: {x: .516512096, y: .621091723}
+      pivot: {x: .569860339, y: .590819001}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_4
+    - name: joueur_marche_arme_droite_3
       rect:
         serializedVersion: 2
-        x: 134
-        y: 7
-        width: 22
-        height: 16
+        x: 98
+        y: 3
+        width: 24
+        height: 20
       alignment: 9
-      pivot: {x: .516512096, y: .52270484}
+      pivot: {x: .530272782, y: .627146244}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_5
+    - name: joueur_marche_arme_droite_4
       rect:
         serializedVersion: 2
-        x: 166
-        y: 6
-        width: 22
-        height: 18
+        x: 130
+        y: 3
+        width: 25
+        height: 19
       alignment: 9
-      pivot: {x: .5, y: .520182073}
+      pivot: {x: .558123767, y: .652958095}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_6
+    - name: joueur_marche_arme_droite_5
       rect:
         serializedVersion: 2
-        x: 198
-        y: 7
-        width: 22
-        height: 16
+        x: 163
+        y: 3
+        width: 25
+        height: 20
       alignment: 9
-      pivot: {x: .516512811, y: .52270484}
+      pivot: {x: .558123767, y: .645310044}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: joueur_marche_7
+    - name: joueur_marche_arme_droite_6
       rect:
         serializedVersion: 2
-        x: 229
-        y: 7
-        width: 22
-        height: 15
+        x: 197
+        y: 3
+        width: 23
+        height: 21
       alignment: 9
-      pivot: {x: .499999315, y: .596873403}
+      pivot: {x: .5, y: .586494148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_droite_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .572655022, y: .590818763}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
