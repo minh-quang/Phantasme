@@ -3,8 +3,11 @@ using System.Collections;
 
 public class CharacterHandler : MonoBehaviour {
 
+   
+
 	// Use this for initialization
 	void Start () {
+        
 	
 	}
 	
