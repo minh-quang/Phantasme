@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 259743d0762fb154fa97367fe150d74b
-timeCreated: 1448114754
+timeCreated: 1448127434
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -65,8 +65,8 @@ TextureImporter:
         y: 6
         width: 22
         height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .50000006, y: .606845617}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_1
       rect:
@@ -75,8 +75,8 @@ TextureImporter:
         y: 5
         width: 22
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .483487576, y: .557359219}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_2
       rect:
@@ -85,8 +85,8 @@ TextureImporter:
         y: 6
         width: 22
         height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .450462341, y: .585476518}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_3
       rect:
@@ -95,8 +95,8 @@ TextureImporter:
         y: 7
         width: 22
         height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .516512096, y: .621091723}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_4
       rect:
@@ -105,8 +105,8 @@ TextureImporter:
         y: 7
         width: 22
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .516512096, y: .52270484}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_5
       rect:
@@ -115,8 +115,8 @@ TextureImporter:
         y: 6
         width: 22
         height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .5, y: .520182073}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_6
       rect:
@@ -125,8 +125,8 @@ TextureImporter:
         y: 7
         width: 22
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .516512811, y: .52270484}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_marche_7
       rect:
@@ -135,8 +135,8 @@ TextureImporter:
         y: 7
         width: 22
         height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .499999315, y: .596873403}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
