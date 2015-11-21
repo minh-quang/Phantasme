@@ -124,4 +124,13 @@ public class Player : MonoBehaviour {
         else { isHitting = false; }
         //if l'animation n'est pas acitivé alors isHittingUp = false
     }
+
+    //void OnCollisionEnter2D(Collision2D coll)
+    //{
+    //    Vector3 pos = transform.position;
+    //    if (coll.gameObject.tag == "obstacles")
+    //    {
+    //        transform.position = pos;
+    //    }
+    //}
 }

@@ -17,7 +17,7 @@ public class MapManager : MonoBehaviour {
                 int rand = Random.Range(1, 4);
                 string toset = "Earth" + rand;
 
-                Tiled_Map clone = Instantiate(prefab, new Vector3(x * 10.0f, y * 10.0f, 0), Quaternion.identity) as Tiled_Map;
+                Tiled_Map clone = Instantiate(prefab, new Vector3(x * 1.0f, y * 1.0f, 0), Quaternion.identity) as Tiled_Map;
                 //clone.GetComponent<SpriteRenderer>().sprite = clone.GetComponent<Tiled_Map>().getSprite();
                 clone.GetComponent<Tiled_Map>().setSprite(Resources.Load<Sprite>(toset));
             }
