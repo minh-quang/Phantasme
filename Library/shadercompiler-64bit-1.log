@@ -1,41 +1,13 @@
-<<<<<<< HEAD
 Base path: D:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9264
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12552
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=2390 outsize=837 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=577 outsize=3517 kw=SHADOWS_DEPTH ok=1
+  api=4 type=0 insize=1131 outsize=1493 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=577 outsize=437 kw=SHADOWS_DEPTH ok=1
+  api=4 type=1 insize=1131 outsize=754 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=7080 outsize=4768 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+  api=4 type=0 insize=1028 outsize=1469 kw= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7080 outsize=1973 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-=======
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-11204
-Cmd: getPlatforms
-Cmd: compileSnippet
-  api=4 type=0 insize=1420 outsize=1379 kw= pd= ok=1
-Cmd: compileSnippet
-<<<<<<< HEAD
-  api=4 type=1 insize=541 outsize=453 kw=SHADOWS_DEPTH pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=6895 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=6895 outsize=1314 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3666 outsize=2753 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3666 outsize=1168 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=6816 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=6816 outsize=1314 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=3588 outsize=2753 kw=DIRECTIONAL pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=3588 outsize=1168 kw=DIRECTIONAL pd= ok=1
->>>>>>> refs/remotes/origin/Player
-=======
-  api=4 type=1 insize=1420 outsize=1704 kw= pd= ok=1
->>>>>>> refs/remotes/origin/Player
+  api=4 type=1 insize=1028 outsize=754 kw= ok=1

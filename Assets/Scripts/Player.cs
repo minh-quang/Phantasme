@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
     public float MaxSpeed;
     public Vector2 position;
     private bool isHitting;
+
     int dimension;
     float taille;
 
@@ -73,14 +74,11 @@ public class Player : MonoBehaviour {
         
         //Tape
         Hitting();
-<<<<<<< HEAD
         if (isHitting)
         {
             Debug.Log("je tape");
         }
         
-=======
->>>>>>> refs/remotes/origin/Player
     }
 
     //Fonction dammage
@@ -103,11 +101,11 @@ public class Player : MonoBehaviour {
     }
 
     //Faire la fonction qui reconnait les coups
-    void OnTriggerEnter2D (Collider2D collided)
+    void OnTriggerEnter2D(Collider2D collided)
     {
-        if (collided.name == "je sais pas encore")
+        if (collided.tag == "Monster")
         {
-            //TakeDamage(Damage lié à l'arme);
+            TakeDamage(collided.GetComponent<MonsterCaracteristics>().attack);
         }
     }
 

@@ -59,6 +59,7 @@ public class MapManager : MonoBehaviour {
         EndsOfGame = GameObject.FindGameObjectsWithTag("seringuespawnpoints");
         seringue = EndsOfGame[Random.Range(0, EndsOfGame.Length - 1)].transform.position;
         Instantiate(seringuePrefab, seringue, Quaternion.identity);
+        AstarPath.active.Scan();
 	}
 	
 	// Update is called once per frame
