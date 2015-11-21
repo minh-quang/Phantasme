@@ -9,6 +9,11 @@ public class Player : MonoBehaviour {
     public Vector2 position;
     private bool isHitting;
 
+    Animator[] anim;
+    Animator anim1;
+    Animator anim2;
+    
+
     //Variable ori pour savoir dans quel sens on est et ainsi se déplacer correctement
     // -1 = left, 0 = down, 1 = right, 2 = up;
     private int ori;
@@ -18,7 +23,11 @@ public class Player : MonoBehaviour {
         Health = MaxHealth;
         position = this.transform.position;
         ori = 0;
-    }
+
+        anim = GetComponentsInChildren<Animator>();
+        anim1 = anim[0];
+        anim2 = anim[1];
+    } 
 	
 	// Update is called once per frame
 	void Update () {
@@ -31,6 +40,8 @@ public class Player : MonoBehaviour {
         //Mouvement
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        anim1.SetFloat("speed", horizontal + vertical);
+        anim2.SetFloat("speed", horizontal + vertical);
         if (ori == 0)
         {
             Move(horizontal, vertical);
@@ -78,6 +89,7 @@ public class Player : MonoBehaviour {
     {
         float Speed = MaxSpeed * Time.deltaTime;
         this.transform.Translate(new Vector2(Speed * h, Speed * v));
+        
     }
 
     //Faire la fonction qui reconnait les coups
