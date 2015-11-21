@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class Player : MonoBehaviour {
 
     public float MaxHealth;
@@ -8,6 +7,8 @@ public class Player : MonoBehaviour {
     public float MaxSpeed;
     public Vector2 position;
     private bool isHitting;
+    int dimension;
+    float taille;
 
     //Variable ori pour savoir dans quel sens on est et ainsi se déplacer correctement
     // -1 = left, 0 = down, 1 = right, 2 = up;
@@ -18,6 +19,8 @@ public class Player : MonoBehaviour {
         Health = MaxHealth;
         position = this.transform.position;
         ori = 0;
+        dimension = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().dimension;
+        taille = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().taille;
     }
 	
 	// Update is called once per frame
@@ -59,6 +62,7 @@ public class Player : MonoBehaviour {
         {
             Debug.Log("je tape");
         }
+        
     }
 
     //Fonction dammage
@@ -78,6 +82,7 @@ public class Player : MonoBehaviour {
     {
         float Speed = MaxSpeed * Time.deltaTime;
         this.transform.Translate(new Vector2(Speed * h, Speed * v));
+        //Debug.Log(transform.position.ToString());
     }
 
     //Faire la fonction qui reconnait les coups

@@ -1,1 +1,14 @@
 D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\UnityEditor.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\UnityEngine.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Mono.Cecil.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Unity.DataContract.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\obj\Debug\Assembly-CSharp.dll
+D:\Documents\ENSIIE\JIN\UniJam\SurvivalBTA\obj\Debug\Assembly-CSharp.pdb
