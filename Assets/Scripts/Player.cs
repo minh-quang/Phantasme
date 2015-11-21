@@ -24,17 +24,17 @@ public class Player : MonoBehaviour {
         Health = MaxHealth;
         position = this.transform.position;
         ori = 0;
-<<<<<<< HEAD
+
         dimension = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().dimension;
         taille = GameObject.FindGameObjectWithTag("MapManager").GetComponent<MapManager>().taille;
-    }
-=======
 
         anim = GetComponentsInChildren<Animator>();
+        Debug.Log(anim.ToString());
         anim1 = anim[0];
+        Debug.Log(anim1.ToString());
         anim2 = anim[1];
-    } 
->>>>>>> refs/remotes/origin/Player
+        Debug.Log(anim2.ToString());
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -97,11 +97,6 @@ public class Player : MonoBehaviour {
     {
         float Speed = MaxSpeed * Time.deltaTime;
         this.transform.Translate(new Vector2(Speed * h, Speed * v));
-<<<<<<< HEAD
-        //Debug.Log(transform.position.ToString());
-=======
-        
->>>>>>> refs/remotes/origin/Player
     }
 
     //Faire la fonction qui reconnait les coups
