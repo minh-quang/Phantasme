@@ -73,11 +73,14 @@ public class Player : MonoBehaviour {
         
         //Tape
         Hitting();
+<<<<<<< HEAD
         if (isHitting)
         {
             Debug.Log("je tape");
         }
         
+=======
+>>>>>>> refs/remotes/origin/Player
     }
 
     //Fonction dammage
@@ -131,7 +134,7 @@ public class Player : MonoBehaviour {
             Rotation(0, 0, 90);
             ori = 1;
         }
-        else
+        else if (Input.GetKey(KeyCode.S))
         {
             Rotation(0, 0, 0);
             ori = 0;
@@ -169,9 +172,13 @@ public class Player : MonoBehaviour {
         if (Input.GetKey(KeyCode.Space))
         {
             isHitting = true;
-            //lancé l'animation coup en bas
+            anim1.SetBool("coup", true);
         }
-        else { isHitting = false; }
+        else
+        {
+            isHitting = false;
+            anim1.SetBool("coup", false);
+        }
         //if l'animation n'est pas acitivé alors isHittingUp = false
     }
 

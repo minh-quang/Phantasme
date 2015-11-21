@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 569f7a25d94c3504381121f325cce4dc
+timeCreated: 1448133259
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: joueur_marche_arme_gauche_0
+    21300002: joueur_marche_arme_gauche_1
+    21300004: joueur_marche_arme_gauche_2
+    21300006: joueur_marche_arme_gauche_3
+    21300008: joueur_marche_arme_gauche_4
+    21300010: joueur_marche_arme_gauche_5
+    21300012: joueur_marche_arme_gauche_6
+    21300014: joueur_marche_arme_gauche_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: joueur_marche_arme_gauche_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 25
+        height: 19
+      alignment: 9
+      pivot: {x: .441875994, y: .652958095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .441876054, y: .627146244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 23
+        height: 21
+      alignment: 9
+      pivot: {x: .468410999, y: .56919533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3
+        width: 25
+        height: 20
+      alignment: 9
+      pivot: {x: .441875607, y: .627146244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 3
+        width: 25
+        height: 19
+      alignment: 9
+      pivot: {x: .441875607, y: .672077835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: .439454406, y: .627146244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: .430139393, y: .53632772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: joueur_marche_arme_gauche_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: .469727188, y: .608982503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

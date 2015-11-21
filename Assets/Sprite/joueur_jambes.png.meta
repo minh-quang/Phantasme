@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9c31d36684ee725459320044decf5f23
-timeCreated: 1448115815
+timeCreated: 1448127377
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,8 +85,8 @@ TextureImporter:
         y: 7
         width: 16
         height: 15
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .545409203, y: .572655022}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_jambes_6
       rect:
@@ -95,8 +95,8 @@ TextureImporter:
         y: 6
         width: 16
         height: 17
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .477294922, y: .585476518}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: joueur_jambes_7
       rect:
@@ -135,8 +135,8 @@ TextureImporter:
         y: 6
         width: 16
         height: 17
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .585476518}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
