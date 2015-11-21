@@ -46,7 +46,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharacterHandler.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Player.cs" />
+=======
+     <Compile Include="Assets\Scripts\MapManager.cs" />
+     <Compile Include="Assets\Scripts\Tiled_Map.cs" />
+     <Compile Include="Assets\Scripts\Wall.cs" />
+>>>>>>> refs/remotes/origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
