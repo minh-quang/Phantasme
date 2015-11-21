@@ -51,26 +51,8 @@ public class Player : MonoBehaviour {
         //Orientation
         float horizontalO = Input.GetAxis("HorizontalO");
         float verticalO = Input.GetAxis("VerticalO");
-        if (verticalO > 0)
-        {
-            Orientation(0, 0, 180);
-            ori = 2;
-        }
-        if (verticalO < 0)
-        {
-            Orientation(0, 0, 0);
-            ori = 0;
-        }
-        if (horizontalO < 0)
-        {
-            Orientation(0, 0, -90);
-            ori = -1;
-        }
-        if (horizontalO > 0)
-        {
-            Orientation(0, 0, 90);
-            ori = 1;
-        }
+        Orientation(horizontalO, verticalO);
+        
         //Tape
         Hitting();
         if (isHitting)
@@ -108,9 +90,58 @@ public class Player : MonoBehaviour {
     }
 
     //Fonction d'orientation
-    void Orientation(float x1, float x2, float x3)
+    void Rotation(float x1, float x2, float x3)
     {
         transform.eulerAngles = new Vector3(x1, x2, x3);
+    }
+
+    void OrientationMouv()
+    {
+        if (Input.GetKey(KeyCode.Z))
+        {
+            Rotation(0, 0, 180);
+            ori = 2;
+        }
+        else if (Input.GetKey(KeyCode.Q))
+        {
+            Rotation(0, 0, -90);
+            ori = -1;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            Rotation(0, 0, 90);
+            ori = 1;
+        }
+        else
+        {
+            Rotation(0, 0, 0);
+            ori = 0;
+        }
+    }
+
+    void Orientation (float horizontal, float vertical)
+    {
+        if (vertical > 0)
+        {
+            Rotation(0, 0, 180);
+            ori = 2;
+        }
+        else if (vertical < 0)
+        {
+            Rotation(0, 0, 0);
+            ori = 0;
+        }
+        else if (horizontal < 0)
+        {
+            Rotation(0, 0, -90);
+            ori = -1;
+        }
+        else if (horizontal > 0)
+        {
+            Rotation(0, 0, 90);
+            ori = 1;
+        }
+        else { OrientationMouv(); }
     }
 
     //Fonction pour savoir s'il tape
