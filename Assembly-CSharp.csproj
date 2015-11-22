@@ -112,6 +112,7 @@
      <Compile Include="Assets\Scripts\AttackZone.cs" />
      <Compile Include="Assets\Scripts\CameraMouvement.cs" />
      <Compile Include="Assets\Scripts\EndOfStage.cs" />
+     <Compile Include="Assets\Scripts\HightScore.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\MapManager.cs" />
      <Compile Include="Assets\Scripts\MonsterCaracteristics.cs" />
