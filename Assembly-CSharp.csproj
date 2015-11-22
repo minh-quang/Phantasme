@@ -113,11 +113,17 @@
      <Compile Include="Assets\Scripts\AttackZone.cs" />
      <Compile Include="Assets\Scripts\CameraMouvement.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\EndOfStage.cs" />
 =======
      <Compile Include="Assets\Scripts\CharacterHandler.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
 >>>>>>> refs/remotes/origin/Player
+=======
+     <Compile Include="Assets\Scripts\EndOfStage.cs" />
+     <Compile Include="Assets\Scripts\Life.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+>>>>>>> parent of 9a26152... Revert "UI started - Life"
      <Compile Include="Assets\Scripts\MapManager.cs" />
      <Compile Include="Assets\Scripts\MonsterCaracteristics.cs" />
      <Compile Include="Assets\Scripts\MonsterManager.cs" />
@@ -136,11 +142,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
- <Reference Include="Pathfinding.JsonFx">
- <HintPath>D:/Documents/ENSIIE/JIN/UniJam/SurvivalBTA/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
- </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
  <HintPath>D:/Documents/ENSIIE/JIN/UniJam/SurvivalBTA/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>D:/Documents/ENSIIE/JIN/UniJam/SurvivalBTA/Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

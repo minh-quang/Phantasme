@@ -1,10 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Base path: D:/Program Files (x86)/Unity/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-12552
 =======
 Base path: C:/Program Files/Unity/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-9276
 >>>>>>> refs/remotes/origin/Player
+=======
+Base path: D:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-13828
+>>>>>>> parent of 9a26152... Revert "UI started - Life"
 Cmd: getPlatforms
 Unhandled exception: Readfile from pipe failed. GLE=Le canal de communication a été fermé.
 
